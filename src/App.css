@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 20px
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.input {
+  padding: 15px;
+  margin: 10px 0px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #000000;
+  width: 100%;
+  max-width: 100000px;
+  max-width: 100000px;
+  transition: border 0.3s;
+}
+
+.input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.items-title {
+  font-size:1.5rem;
+  color: #3c3c3c;
+  margin-bottom: 10px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px, rgba(0,0,0,0.05); 
+  align-items: center;
+}
+
+.add-items-btn,
+.preview-btn {
+  background-color:#4caf50;
+  color: white;
+  padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-item-btn:hover,
+.preview-btn:hover {
+  background-color: #45a049;
+}
+
+.remove-item-btn {
+  background-color:#f44336;
+  color: white;
+  padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-item-btn:hover {
+  background-color: #f44336;
+}
+
+.total-amount {
+  margin: 20px 0;
+  text-align: right; 
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.invoice-preview {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01);
+}
+
+.invoice-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.invoice-table th,
+.invoice-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.invoice-table th {
+  background-color: #f4f7fa;
+}
+
+.total-amount-preview {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: right;
+}
+
+.print-btn {
+  background-color: #f04336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+  transition: background-color 0.3s;
+}
+
+.print-btn:hover {
+  background-color: #e7342a;
+}
+  
+.logo-container {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+
+.generator {
+  text-align: center;
+}
+
+.item-row {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between elements */
+  margin-bottom: 10px;
+}
+
+.item-name {
+  flex: 2; /* Item name takes more space */
+}
+
+.quantity-input, .price-input {
+  flex: 1; /* Quantity and Price take equal space */
+  max-width: 80px; /* Adjust width */
+}
+
+@media print {
+  body * {
+    visibility: hidden; /* Hide everything by default */
+  }
+
+  #preview-container, #preview-container * {
+    visibility: visible; /* Show only the invoice preview */
+  }
+
+  #preview-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .print-btn {
+    display: none; /* Hide the print button in the print view */
+  }
+}
+
