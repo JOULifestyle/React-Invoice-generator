@@ -19,7 +19,6 @@ This project focuses on React’s state management, UI customization, and real-t
 
 
 ## Installation
-```sh
 git clone https://github.com/JOULifestyle/JOU-Tech.git
 cd JOU-Tech
 npm install
