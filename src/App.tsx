@@ -85,7 +85,6 @@ function App() {
     const date = new Date();
     const formattedDate = date.toISOString().slice(0, 10).replace(/-/g, "");
     const randomNumber = Math.floor(1000 + Math.random() * 9000); // Random 4-digit number
-    setInvoiceNumber(`${formattedDate}-${randomNumber}`);
   };
 
   const resetInvoiceNumbering = () => {
