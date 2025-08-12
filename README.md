@@ -95,16 +95,5 @@ The app will be available at: http://localhost:5173
 npm run build
 The compiled files will be in the dist/ folder.
 
-## 🖼️ Screenshots
-
-<img src="https://github.com/JOULifestyle/React-Invoice-generator/blob/master/public/invoicegeneratorpage1.png" alt="Invoice Generator"> 
-
-**Create / Edit view** — enter client details, add items, upload logo, and customize colors.
-
-<img src="https://github.com/JOULifestyle/React-Invoice-generator/blob/master/public/invoicegeneratorpage2.png" alt="Invoice geberator preview">
-
-**Preview / Print view** — final invoice layout ready for printing or PDF export.
-
-
 📜 License
 This project is licensed under the MIT License – you’re free to use, modify, and distribute.
