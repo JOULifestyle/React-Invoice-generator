@@ -84,11 +84,11 @@ The compiled files will be in the dist/ folder.
 
 ## 🖼️ Screenshots
 
-![Invoice generator — create view](./public/invoicegeneratorpage1.png)  
+![Invoice generator — create view](./invoicegeneratorpage1.png)  
 
 **Create / Edit view** — enter client details, add items, upload logo, and customize colors.
 
-![Invoice generator — preview view](./public/invoicegeneratorpage2.png)  
+![Invoice generator — preview view](./invoicegeneratorpage2.png)  
 
 **Preview / Print view** — final invoice layout ready for printing or PDF export.
 
