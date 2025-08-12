@@ -84,7 +84,7 @@ The compiled files will be in the dist/ folder.
 
 ## 🖼️ Screenshots
 
-![Invoice generator — create view](https://github.com/JOULifestyle/React-Invoice-generator/blob/master/public/invoicegeneratorpage1.png))  
+<img src="https://github.com/JOULifestyle/React-Invoice-generator/blob/master/public/invoicegeneratorpage1.png" alt="Invoice Generator"> 
 
 **Create / Edit view** — enter client details, add items, upload logo, and customize colors.
 
