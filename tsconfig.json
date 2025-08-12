@@ -9,7 +9,9 @@
   "noUnusedParameters": false,
   "strict": false,
   "noImplicitReturns": false,
-  "noFallthroughCasesInSwitch": false
+  "noFallthroughCasesInSwitch": false,
+  "lib": ["DOM", "DOM.Iterable", "ESNext"],
+"jsx": "react-jsx"
   }
 }
   
