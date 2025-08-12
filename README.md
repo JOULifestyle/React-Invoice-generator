@@ -39,7 +39,17 @@ It allows users to create, customize, and export professional invoices with ease
 - **Linting:** ESLint + TypeScript ESLint  
 
 ---
+## 🖼️ Screenshots
 
+<img src="https://github.com/JOULifestyle/React-Invoice-generator/blob/master/public/invoicegeneratorpage1.png" alt="Invoice Generator"> 
+
+**Create / Edit view** — enter client details, add items, upload logo, and customize colors.
+
+![Invoice generator — preview view](https://raw.githubusercontent.com/JOULifestyle/React-Invoice-generator/main/public/invoicegeneratorpage2.png)
+
+**Preview / Print view** — final invoice layout ready for printing or PDF export.
+
+---
 ## 📂 Project Structure
 
 ```plaintext
@@ -62,6 +72,7 @@ React-Invoice-generator/
 ├── vite.config.ts       # Vite configuration
 ├── README.md            # Project documentation
 ⚙️ Installation & Setup
+
 Clone the repository
 
 
