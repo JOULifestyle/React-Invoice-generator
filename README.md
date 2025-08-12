@@ -5,6 +5,12 @@ It allows users to create, customize, and export professional invoices with ease
 
 ---
 
+## 🔗 Live Demo
+
+[🚀 View Live App](https://invoice.joulifestyle.com)
+
+---
+
 ## 🚀 Features
 
 - **Create New Invoices** – Add client details, products/services, prices, and tax.  
@@ -76,18 +82,15 @@ The app will be available at: http://localhost:5173
 npm run build
 The compiled files will be in the dist/ folder.
 
-🖼️ Screenshots
 ## 🖼️ Screenshots
 
-<figure>
-  <img src="./public/invoicegeneratorpage1.png" alt="Invoice generator — create view" />
-  <figcaption><strong>Create / Edit view</strong> — enter client details, add items, upload logo, and customize colors.</figcaption>
-</figure>
+![Invoice generator — create view](./public/invoicegeneratorpage1.png)  
 
-<figure>
-  <img src="./public/invoicegeneratorpage2.png" alt="Invoice generator — preview view" />
-  <figcaption><strong>Preview / Print view</strong> — final invoice layout ready for printing or PDF export.</figcaption>
-</figure>
+**Create / Edit view** — enter client details, add items, upload logo, and customize colors.
+
+![Invoice generator — preview view](./public/invoicegeneratorpage2.png)  
+
+**Preview / Print view** — final invoice layout ready for printing or PDF export.
 
 
 📜 License
