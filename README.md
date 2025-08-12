@@ -71,6 +71,8 @@ React-Invoice-generator/
 ├── tsconfig.json        # TypeScript configuration
 ├── vite.config.ts       # Vite configuration
 ├── README.md            # Project documentation
+
+
 ⚙️ Installation & Setup
 
 Clone the repository
@@ -99,7 +101,7 @@ The compiled files will be in the dist/ folder.
 
 **Create / Edit view** — enter client details, add items, upload logo, and customize colors.
 
-![Invoice generator — preview view](https://raw.githubusercontent.com/JOULifestyle/React-Invoice-generator/main/public/invoicegeneratorpage2.png)
+<img src="https://github.com/JOULifestyle/React-Invoice-generator/blob/master/public/invoicegeneratorpage2.png" alt="Invoice geberator preview">
 
 **Preview / Print view** — final invoice layout ready for printing or PDF export.
 
