@@ -7,7 +7,7 @@ It allows users to create, customize, and export professional invoices with ease
 
 ## 🔗 Live Demo
 
-[🚀 View Live App](https://invoice.joulifestyle.com)
+[🚀 View Live App](https://react-invoice-generator-joulifestyle.vercel.app)
 
 ---
 
